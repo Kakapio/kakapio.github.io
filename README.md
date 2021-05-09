@@ -1,1 +1,1 @@
-My personal portfolio site. Based off open-source code from StartBootstrap.
+My personal portfolio site. Made using open-source code from StartBootstrap.
