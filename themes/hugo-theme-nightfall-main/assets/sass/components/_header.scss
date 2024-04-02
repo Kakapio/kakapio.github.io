@@ -19,6 +19,15 @@
   flex-shrink: 0;
 }
 
+.terminalWrapper {
+  display: flex;
+  justify-content: flex-start;
+
+  > * {
+    margin-left: 4px; // Adjust the value as needed
+  }
+}
+
 .headerLinks {
   ul {
     list-style: none;
@@ -46,7 +55,7 @@
   height: 20px; // adjusting height to make it rectangular
   background-color: #00a7fb;
   position: relative; /* Use relative positioning */
-  left: calc(-26% - 4px); /* Position it relative to the terminal link */
+  left: calc(1% - 0px); /* Position it relative to the terminal link */
   animation: blink 1s infinite;
 }
 
