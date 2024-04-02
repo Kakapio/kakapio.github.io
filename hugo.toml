@@ -1,0 +1,38 @@
+baseURL = 'https://roshanpatel.dev/'
+languageCode = 'en-us'
+title = 'Roshan Patel Portfolio'
+
+theme = 'hugo-theme-nightfall-main'
+
+[params]
+published = false
+readingTime = false
+user = "roshanpatel"
+hostname = "kakapio"
+sitedescription = "Roshan Patel software portfolio"
+
+  [params.author]
+    name = "Roshan Patel"
+    #email = "monkey@gmail.com"
+
+[menu]
+    [[menu.header]]
+    name = "projects"
+    weight = 0
+    url = "/projects"
+
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/kakapio"
+
+[[params.social]]
+key = 1
+name = "linkedin"
+url = "https://www.linkedin.com/in/patel-roshan/"
+
+[[params.social]]
+key = 2
+name = "email"
+url = "mailto:rapatel049@gmail.com"
