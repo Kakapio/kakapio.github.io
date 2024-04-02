@@ -1,8 +1,8 @@
 +++
 author = "Roshan Patel"
-title = "Graphite"
-date = "2024-01-01"
-description = "[open repo](https://github.com/GraphiteEditor/Graphite)"
+title = "Raytracer"
+date = "2023-03-12"
+description = "[open repo](https://github.com/Kakapio/opengl-pathtracer)"
 +++
 
 An editor and engine that can simulate realistic interactions between photons and materials. <!--more-->This was my university capstone project which I wrote in collaboration with another student. We tackled the creation of a complex piece of software with many moving pieces, including a scene-graph node system, json serializer, and renderer. We used optimizations such as multithreading and CUDA to maximize the performance of our software. It is best described as an extremely basic version of Blender.
